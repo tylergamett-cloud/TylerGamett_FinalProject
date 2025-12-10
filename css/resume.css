@@ -1,0 +1,68 @@
+/* Overall body styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #2c3e50; /* Dark blue-grey is softer than pure black */
+}
+
+/* Section headings */
+.section-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #343a40;
+    border-bottom: 2px solid #0085A1; /* Matches your site's teal theme */
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+h3.fw-bold {
+    font-size: 1.3rem;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+/* Subheadings */
+.subheading {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Dates */
+.text-muted.fst-italic {
+    font-family: 'Georgia', serif; /* Serif font makes numbers/dates look elegant */
+    font-size: 1rem;
+    color: #666 !important;
+}
+
+/* Bullet Points */
+ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.6; /* Improves readability */
+    font-size: 1rem;
+}
+
+/* Skills */
+.badge {
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border-radius: 4px; /* Square off the corners slightly */
+}
+
+/* Taleau thing */
+.tableauPlaceholder {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+    border: 1px solid #ddd !important;
+}
